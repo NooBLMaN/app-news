@@ -354,3 +354,10 @@ Authorization: Bearer {{access_token}}
 4. Запустите тесты
 
 Это руководство поможет вам протестировать все функции вашего API и убедиться в их корректной работе.
+
+
+## Создание поста
+{
+    "name": "Technology",
+    "description": "All about that name"
+}

@@ -53,7 +53,7 @@ class PostDetailSerializer(serializers.ModelSerializer):
         model = Post
         fields = [
             'id', 'title', 'slug', 'content', 'image', 'category',
-            'categoty_info', 'author', 'author_info', 'status',
+            'category_info', 'author', 'author_info', 'status',
             'created_at', 'updated_at', 'views_count', 'comments_count'
         ]
         read_only_fields = ['slug', 'author', 'views_count']
