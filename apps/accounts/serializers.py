@@ -67,7 +67,7 @@ class UserProgileSerializer(serializers.ModelSerializer):
     """Сериализатор для профидя пользователя."""
     full_name = serializers.ReadOnlyField()
     posts_count = serializers.SerializerMethodField()
-    comment_count = serializers.SerializerMethodField()
+    comments_count = serializers.SerializerMethodField()
 
     class Meta:
         model = User
