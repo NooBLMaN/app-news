@@ -55,4 +55,4 @@ class CommentAdmin(admin.ModelAdmin):
     def make_inactive(self, request, queryset):
         updated = queryset.update(is_active=False)
         self.message_user(request, f'{updated} comments were marked as inactive.')
-    make_inactive.short_description = "Mark selected comments as ina
+    make_inactive.short_description = "Mark selected comments as inactive"
